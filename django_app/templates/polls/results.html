@@ -14,5 +14,7 @@
     <br/>
     {% endfor %}
 </form>
+
+<a href="{% url 'polls:detail' question.id %}">go back</a>
 </body>
 </html>
